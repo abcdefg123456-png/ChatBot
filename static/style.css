@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.header{
+    position: fixed;
+    color: white;
+    background-color: blue;
+    height: 5rem;
+    width: 500px;
+    padding: 10px;
+}
+#messages{
+    padding: 5rem 0;
+}
+#form{
+    position: fixed;
+    height: 5rem;
+    margin-bottom: 5px;
+    margin-top: 650px;
+}
+#input{
+    width: 450px;
+}
+.submit{
+    color: white;
+    background-color: blue;
+}
+#messages li{
+    color: white;
+    background-color: blue;
+    padding: 2px;
+    margin: 10px;
+    width: 400px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+body{
+    background-color: blanchedalmond;
+}
